@@ -74,11 +74,11 @@ public class PagerListView extends ListView {
   private PagerAdapter.ListViewInterface listViewInterface = new PagerAdapter.ListViewInterface() {
 
     @Override public void addPosition() {
-      smoothScrollToPosition(1);
+      smoothScrollToPosition(getLastVisiblePosition() + 1);
     }
 
     @Override public void removePosition() {
-      smoothScrollToPosition(0);
+      smoothScrollToPosition(getFirstVisiblePosition() - 1);
     }
 
   };
