@@ -1,0 +1,18 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/white</item>
+    <item name="colorPrimaryDark">@color/blue_grey_one</item>
+    <item name="android:textColorPrimary">@color/white</item>
+    <item name="colorAccent">@color/white</item>
+    <item name="android:textColorPrimaryInverse">@color/white</item>
+    <item name="actionMenuTextColor">@color/white</item>
+    <item name="android:textColorSecondary">@color/white</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+</resources>
